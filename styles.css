@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lavender; /* Fallback color */
+    background-image: url('background.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    transition: background 0.5s ease-in-out;
+}
+
+header {
+    background-color: rgba(174, 112, 236, 0.8); /* Transparent background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+}
+
+.intro, .skills, .contact {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease-in-out;
+}
+
+h2 {
+    color: #914caf;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #4b0082; /* Indigo for a lavender contrast */
+    transition: color 0.3s ease-in-out;
+}
+
+li:hover {
+    color: #9932cc; /* Interactive hover effect with a brighter lavender color */
+}
+
+.contact a {
+    color: #4b0082; /* Indigo for a lavender contrast */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+    color: #9932cc; /* Interactive hover effect with a brighter lavender color */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8); /* Transparent background */
+    color: white;
+    transition: background 0.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .intro, .skills, .contact {
+        margin: 10px;
+        padding: 15px;
+    }
+}
